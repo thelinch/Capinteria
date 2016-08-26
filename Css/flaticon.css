@@ -1,0 +1,47 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:40
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../font/Flaticon.eot");
+  src: url("../font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../font/Flaticon.woff") format("woff"),
+       url("../font/Flaticon.ttf") format("truetype"),
+       url("../font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-boy:before { content: "\f100"; }
+.flaticon-boy-1:before { content: "\f101"; }
+.flaticon-boy-2:before { content: "\f102"; }
+.flaticon-boy-3:before { content: "\f103"; }
+.flaticon-boy-4:before { content: "\f104"; }
+.flaticon-boy-5:before { content: "\f105"; }
+.flaticon-girl:before { content: "\f106"; }
+.flaticon-girl-1:before { content: "\f107"; }
+.flaticon-girl-2:before { content: "\f108"; }
+.flaticon-girl-3:before { content: "\f109"; }
+.flaticon-girl-4:before { content: "\f10a"; }
+.flaticon-girl-5:before { content: "\f10b"; }
+.flaticon-girl-6:before { content: "\f10c"; }
+.flaticon-girl-7:before { content: "\f10d"; }
+.flaticon-man:before { content: "\f10e"; }
+.flaticon-man-1:before { content: "\f10f"; }
